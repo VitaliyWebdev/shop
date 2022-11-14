@@ -1,8 +1,11 @@
 .cards_wrapper {
   padding: 0 60px 0 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+  .top_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   h1 {
     font-family: 'Inter';
     font-size: 32px;
@@ -35,4 +38,13 @@
       color: #c4c4c4;
     }
   }
+}
+
+.content_wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
